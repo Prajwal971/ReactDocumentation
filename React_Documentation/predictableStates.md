@@ -1,0 +1,3 @@
+# Predictable statesContainer
+
+* It is  a state container because it holds all the state of an application. It will not  let the  changes that state directly, but instead forces  to describe changes as plain objects called "actions". Actions can be recorded and replayed later, so that the state management becomes predictable. With the same actions in the same order, we will be  ending up in the same state.
